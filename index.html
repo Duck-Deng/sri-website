@@ -52,27 +52,28 @@
         <div class="row align-items-lg-center">
           <div class="col-lg-6 text-center order-lg-2">
           </div>
+
+          <head>
+            <style>
+              .text-gradient {
+                position: relative;
+                color: red;
+                font-size: 50px;
+                font-weight: bold;
+              }
+
+              .text-gradient:before {
+                content: attr(text);
+                position: absolute;
+                z-index: 10;
+                color: #c4c93e;
+                font-weight: bold;
+                -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
+              }
+            </style>
+          </head>
+
           <div class="col-lg-6 order-lg-1">
-
-            <head>
-              <style>
-                .text-gradient {
-                  position: relative;
-                  color: red;
-                  font-size: 50px;
-                  font-weight: bold;
-                }
-
-                .text-gradient:before {
-                  content: attr(text);
-                  position: absolute;
-                  z-index: 10;
-                  color: #c4c93e;
-                  font-weight: bold;
-                  -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
-                }
-              </style>
-            </head>
 
             <body>
               <div text="反对霸权，厌恶专制，我们崇尚自由民主！" class="text-gradient">反对霸权，厌恶专制，我们崇尚自由民主！</div>
