@@ -7,10 +7,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url("43de2d28871449afacfb22c49aa31e7b.css");
-html {
+/* html {
   -webkit-filter: grayscale(100%);
   filter: progid:DXImageTransform.Microsoft.BasicImage(graysale=1);
-},
+}, */
 
 html:root {
   --blue: #007bff;
@@ -7128,9 +7128,9 @@ button.bg-dark:hover {
 }
 
 .d-flex {
-  display: -webkit-box ;
-  display: -ms-flexbox ;
-  display: flex 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
 }
 
 .d-inline-flex {
@@ -7400,10 +7400,10 @@ button.bg-dark:hover {
 }
 
 .flex-column {
-  -webkit-box-orient: vertical ;
-  -webkit-box-direction: normal ;
-  -ms-flex-direction: column ;
-  flex-direction: column 
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column
 }
 
 .flex-row-reverse {
@@ -7584,10 +7584,10 @@ button.bg-dark:hover {
 
 @media (min-width:576px) {
   .flex-sm-row {
-    -webkit-box-orient: horizontal ;
-    -webkit-box-direction: normal ;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     -ms-flex-direction: row;
-    flex-direction: row 
+    flex-direction: row
   }
 
   .flex-sm-column {
@@ -26967,6 +26967,7 @@ textarea.form-control {
   .block-thumbnail-1.one-third {
     width: 33.333%;
   }
+
   .block-thumbnail-1.one-third-1 {
     width: 33.333%;
   }
