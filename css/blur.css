@@ -1,11 +1,12 @@
-#blur:hover {
+.blur:hover {
   opacity: 1;
   filter: blur(5px);
   -webkit-filter: blur(5px);
   
 
 }
-#blur:focus {
+.blur:focus {
   opacity: 1;
   filter: blur(5px);
   -webkit-filter: blur(5px);
+}
