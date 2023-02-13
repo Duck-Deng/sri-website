@@ -63,22 +63,42 @@
       z-index: 100;
     }
   </style>
-</head>
-<script>
-  document.onreadystatechange = function () {
-    if (document.readyState == 'complete') {
-      $('.loading').fadeOut()
+  <script>
+    document.onreadystatechange = function () {
+      if (document.readyState == 'complete') {
+        $('.loading').fadeOut()
+      }
     }
-  }
-</script>
+  </script>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/mdui/1.0.2/css/mdui.min.css" />
+</head>
 
-<body>
+<body class="mdui-theme-primary-deep-purple">
+  <div class="mdui-appbar" data-aos="fade-down" data-aos-duration="1400">
+    <div class="mdui-toolbar mdui-color-theme">
+      <a href="/" class="mdui-btn mdui-btn-icon">
+        <i class="mdui-icon material-icons">home</i>
+      </a>
+      <a href="/" class="mdui-typo-headline">
+        <p class="mdui-typo-headline" style="line-height: 64px; margin: 0;">二排起义首页</p>
+      </a>
+      <div class="mdui-toolbar-spacer"></div>
+    </div>
+    <div class="mdui-tab mdui-color-theme">
+      <a target="_blank" href="//book.2paiqiyi.xyz" class="mdui-typo-headline mdui-ripple mdui-ripple-white"><i
+          class="mdui-icon material-icons">book</i> 二排教育出版社</a>
+      <a target="_blank" href="//2paiqiyi.xyz" class="mdui-typo-headline mdui-ripple mdui-ripple-white"><i
+          class="mdui-icon material-icons">music_note</i> 二排音乐工作室</a>
+      <a target="_blank" href="//game.2paiqiyi.xyz" class="mdui-typo-headline mdui-ripple mdui-ripple-white"><i
+          class="mdui-icon material-icons">games</i> 二排游戏中心</a>
+    </div>
+  </div>
   <div class="loading">
     <div class="loading-img"></div>
   </div>
   <div id="menu-box">
     <div class="menu">
-      <div class="menu-item">
+      <!-- <div class="menu-item">
         <h2 class="logo">
           <a href="/"><img src="/images/loge.png" width="115" height="30" /></a>
         </h2>
@@ -86,7 +106,7 @@
           <a href="./" target="_blank"><b>纪念一二•九</b></a>
           <a href="/"><b>首页</b></a>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   <div id="banner">
@@ -117,7 +137,6 @@
           <div text="纪念在一二•九事变中" class="text-gradient">纪念在一二•九事变中</div>
           <div text="饱受摧残的二排烈士！" class="text-gradient">饱受摧残的二排烈士！</div>
         </body>
-        <p>驱除鞑虏，振兴二排</p>
       </div>
     </div>
   </div>
@@ -171,42 +190,28 @@
           </p>
           <p>
             <a href="https://icp.gov.moe/?keyword=20222129" target="_blank">萌ICP备20222129号</a>
-            <p>
-              ©2020-<script>
-                  document.write(new Date().getFullYear());
-                </script> Deng Junjian All rights reserved.
-            </p>
-            </p>
+          <p>
+            ©2020-
+            <script>
+              document.write(new Date().getFullYear());
+            </script> Deng Junjian All rights reserved.
+          </p>
+          </p>
 
         </div>
       </div>
     </div>
     <div id="footer">
-      <p id="counter"></p>
-      <!--<script>document.write(new Date().getFullYear());</script> Deng Junjian All rights reserved.>
-			</div>
-		</div>
-		<script src="static/js/jquery.js"></script>
-		<script>
-			function scroll() {
-				var top = $('#item-box').offset().top
-				var scrollTop = $(window).scrollTop()
-				if (scrollTop < top) {
-					$('#menu-box').css({ background: 'none' })
-					$('#menu-box').css({ 'box-shadow': 'none' })
-					$('.menu-item h2 a').css({ color: '#C6CDD4' })
-					$('.menu-item a').css({ color: '#C6CDD4' })
-				} else {
-					$('#menu-box').css({ background: '#FFFFFF' })
-					$('#menu-box').css({ 'box-shadow': '0px 0px 8px #EAEAEA' })
-					$('.menu-item h2 a').css({ color: '#333333' })
-					$('.menu-item-list a').css({ color: '#333333' })
-				}
-			}
-			$(window).on('scroll', function () {
-				scroll()
-			})
-		</script>
-    
-	</body>
+      <p id="counter">
+        ©2020-
+        <script>
+          document.write(new Date().getFullYear());
+        </script> Deng Junjian All rights reserved.
+      </p>
+    </div>
+  </div>
+  <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/mdui/1.0.2/js/mdui.min.js"></script>
+</body>
+
 </html>
