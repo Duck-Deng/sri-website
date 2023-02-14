@@ -27094,66 +27094,82 @@ textarea.form-control {
 }
 
 
-                                .text-gradient-foot {
-                                  position: relative;
-                                  color: red;
-                                  font-size: 22px;
-                                  font-weight: bold;
-                                }
-                
-                                .text-gradient-foot:before {
-                                  content: attr(text);
-                                  position: absolute;
-                                  z-index: 10;
-                                  color: #c4c93e;
-                                  font-weight: bold;
-                                  -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
-                                }
-                
-                                .text-gradient-foot-eng {
-                                  position: relative;
-                                  color: #8fd3f4;
-                                  font-size: 15px;
-                                  font-weight: bold;
-                                }
-                
-                                .text-gradient-foot-eng:before {
-                                  content: attr(text);
-                                  position: absolute;
-                                  z-index: 10;
-                                  color: #84fab0;
-                                  font-weight: bold;
-                                  -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
-                                }
-                
-                                .text-gradient-foot-egg {
-                                  position: relative;
-                                  color: #fc00ff;
-                                  font-size: 15px;
-                                  font-weight: bold;
-                                }
-                
-                                .text-gradient-foot-egg:before {
-                                  content: attr(text);
-                                  position: absolute;
-                                  z-index: 10;
-                                  color: #00dbde;
-                                  font-weight: bold;
-                                  -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
-                                }
-                
-                                .text-gradient-foot-egg-big {
-                                  position: relative;
-                                  color: #00c9ff;
-                                  font-size: 22px;
-                                  font-weight: bold;
-                                }
-                
-                                .text-gradient-foot-egg-big:before {
-                                  content: attr(text);
-                                  position: absolute;
-                                  z-index: 10;
-                                  color: #f9d423;
-                                  font-weight: bold;
-                                  -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
-                                }
+.text-gradient-foot {
+  position: relative;
+  color: red;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.text-gradient-foot:before {
+  content: attr(text);
+  position: absolute;
+  z-index: 10;
+  color: #c4c93e;
+  font-weight: bold;
+  -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
+}
+
+.text-gradient-foot-eng {
+  position: relative;
+  color: #8fd3f4;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.text-gradient-foot-eng:before {
+  content: attr(text);
+  position: absolute;
+  z-index: 10;
+  color: #84fab0;
+  font-weight: bold;
+  -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
+}
+
+.text-gradient-foot-egg {
+  position: relative;
+  color: #fc00ff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.text-gradient-foot-egg:before {
+  content: attr(text);
+  position: absolute;
+  z-index: 10;
+  color: #00dbde;
+  font-weight: bold;
+  -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
+}
+
+.text-gradient-foot-egg-big {
+  position: relative;
+  color: #00c9ff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.text-gradient-foot-egg-big:before {
+  content: attr(text);
+  position: absolute;
+  z-index: 10;
+  color: #f9d423;
+  font-weight: bold;
+  -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
+}
+
+.text-gradient {
+  position: relative;
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.text-gradient:before {
+  content: attr(text);
+  position: absolute;
+  z-index: 10;
+  color: #c4c93e;
+  font-weight: bold;
+  -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
+}
