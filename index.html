@@ -77,7 +77,17 @@
       </div> <!-- .container -->
     </header> <!-- .templateux-navba -->
 
-    <div class="templateux-cover" style="background-image: url('https://api.dujin.org/bing/1920.php');">
+    <div class="templateux-cover" style="background-image: url('https://api.dujin.org/bing/1920.php');overflow: hidden;
+    /* 背景图片不重复 */
+    background-repeat: no-repeat;
+    /* 背景图片位置：居中 */
+    background-position: center;
+    /* 背景图片固定 */
+    background-attachment: fixed;
+    background-size: cover;
+    /* 禁止用户误选中 */
+    user-select: none;
+">
       <div class="container">
         <div class="row align-items-lg-center">
           <div class="col-lg-6 text-center order-lg-2">
@@ -85,7 +95,8 @@
 
           <div class="col-lg-6 order-lg-1">
 
-              <div data-aos="fade-up"data-aos-duration="1200" text="文津集团好！2500平方米没得跑！" class="text-gradient">文津集团好！2500平方米没得跑！</div>
+            <div data-aos="fade-up" data-aos-duration="1200" text="文津集团好！2500平方米没得跑！" class="text-gradient">
+              文津集团好！2500平方米没得跑！</div>
             <p class="lead mb-5" data-aos="fade-up" data-aos-delay="100">
               <!--<p data-aos="fade-up" data-aos-delay="200"><a href="./#start" class="btn btn-primary py-3 px-4">了解更多</a>-->
             </p>
@@ -96,12 +107,12 @@
 
       </div>
     </div> <!-- .templateux-cover -->
-    <div class="templateux-section" data-aos="fade-up"data-aos-duration="1300">
+    <div class="templateux-section" data-aos="fade-up" data-aos-duration="1300">
       <div class="container">
         <div class="row">
           <div class="col-md-12 templateux-overlap">
             <div class="row">
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="600" >
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
                 <div class="media block-icon-1 d-block text-left">
                   <img src="./images/icon/history.png" width="70" height="70" />
                   <div class="media-body">
@@ -110,7 +121,7 @@
                   </div>
                 </div> <!-- .block-icon-1 -->
               </div>
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="700" >
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="700">
                 <div class="media block-icon-1 d-block text-left">
                   <img src="./images/icon/wenhua.png" width="70" height="70" />
                   <div class="media-body">
@@ -121,7 +132,7 @@
                   </div>
                 </div> <!-- .block-icon-1 -->
               </div>
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="800" >
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
                 <div class="media block-icon-1 d-block text-left">
                   <img src="./images/icon/qizhi.png" width="70" height="70" />
                   <div class="media-body">
@@ -244,8 +255,7 @@
           <div class="block-footer-widget">
             <div text="小彩蛋" class="text-gradient-foot-egg-big">小彩蛋</div>
             <div text="如你所见，这里有一个蛋，点一下试试？" class="text-gradient-foot-egg">如你所见，这里有一个蛋，点一下试试？</div>
-            <a href="./egg" ><img src="./images/egg.png" width="80vw"
-                style="box-shadow:0px 0px 10px 10px gold;" /></a>
+            <a href="./egg"><img src="./images/egg.png" width="80vw" style="box-shadow:0px 0px 10px 10px gold;" /></a>
           </div>
         </div>
 
