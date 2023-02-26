@@ -27173,3 +27173,17 @@ textarea.form-control {
   font-weight: bold;
   -webkit-mask: linear-gradient(to right, transparent, #c4c93e);
 }
+
+@font-face {
+  font-family: DingTalk;
+  src: url('../fonts/DingTalk.ttf');
+}
+
+.title {
+  text-align: center;
+  font-size: 20vw;
+  margin-top: 10vh;
+  font-family: DingTalk;
+  color: #D32F2F;
+}
+
