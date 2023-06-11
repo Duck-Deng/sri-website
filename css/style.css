@@ -27181,6 +27181,11 @@ textarea.form-control {
   src: url('../fonts/DingTalk.ttf');
 }
 
+@font-face {
+  font-family: DingTalk;
+  src: url('../fonts/Alimama_DongFangDaKai_Regular.woff2');
+}
+
 .title {
   text-align: center;
   font-size: 20vw;
@@ -27188,4 +27193,3 @@ textarea.form-control {
   font-family: DingTalk;
   color: #D32F2F;
 }
-
