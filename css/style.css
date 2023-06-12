@@ -27193,3 +27193,8 @@ textarea.form-control {
   font-family: DingTalk;
   color: #D32F2F;
 }
+
+.sub-title {
+  font-family: 'Noto Sans SC';
+  font-weight: 700;
+}
